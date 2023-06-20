@@ -20,7 +20,7 @@ images.forEach(image => {
   const { url, alt } = image;
   galleryHTML += `
     <li class=size>
-      <img src="${url}" alt="${alt}" width=720px height: 1280px>
+      <img src="${url}" alt="${alt}" width=700px height=400px>
     </li>
   `;
 });
