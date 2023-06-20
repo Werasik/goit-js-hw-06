@@ -5,14 +5,14 @@ function handleSubmit(event) {
   const elementsObject = {};
 
   const {
-    elements: { email, password }
+    elements: { email, password },
   } = event.currentTarget;
-  
+
   if (email.value === "" || password.value === "") {
     alert("Заповніть всі поля");
-    return
-  } 
-  
+    return;
+  }
+
   elementsObject.email = email.value;
   elementsObject.password = password.value;
   console.log(elementsObject);
